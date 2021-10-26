@@ -23,7 +23,7 @@ const LowerTab = () => {
         <Add />
       </button>
       <a
-        href="https://github.com/yadprab/CRUD"
+        href="https://github.com/yadprab/React-assignment"
         target="_blank"
         rel="noOpener noReferrer"
       >
