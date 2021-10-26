@@ -1,0 +1,61 @@
+html {
+
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    min-width: 100%;
+    overflow-x: hidden;
+    font-size: 100%;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+body {
+    background-color: var(--bg);
+    font-family: 'Inter',
+        sans-serif;
+    line-height: 1.75;
+    position: relative;
+
+}
+
+html,
+body {
+    height: 100%;
+}
+
+svg:not(#addIcon):not(#Loader):not(#success) {
+    path {
+        fill: var(--IconBg);
+    }
+}
+
+.error--wrapper {
+    @include flex-2;
+    color: var(--text);
+}

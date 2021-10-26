@@ -1,0 +1,42 @@
+.notif--outer--wrapper {
+    position: absolute;
+    bottom: 100px;
+    width: 326px;
+    background: var(--notifHigh);
+    border-radius: 50px;
+    @include box-shadow;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+}
+
+.notif--inner--wrapper {
+    background: var(--profile);
+    width: 318px;
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 1em;
+
+    p {
+        color: var(--text);
+        text-transform: capitalize;
+    }
+
+    button {
+        @include svg-button;
+
+        svg {
+            width: 16px;
+            height: 16px;
+        }
+    }
+}
+
+.top--notif--wrapper {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px;
+    align-items: center;
+}
