@@ -6,7 +6,7 @@
 4. For Animation use Framer Motion
 5. useContext + useReducer for State management
 
-[repo](https://github.com/yadprab/CRUD)
+[repo](https://github.com/yadprab/React-assignment)
 
 [livesite](https://crudassign.netlify.app/)
 
